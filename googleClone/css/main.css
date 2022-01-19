@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    margin-right: 24px;
+}
+header nav ul li{
+    font-size: 1.3rem;
+    color: #666 ;
+    margin: auto;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+nav .nav-right-section .menu-icon{
+    background-image: url('../res/menu-icon.svg');
+    width: 20px;
+    height: 20px;
+}
+nav .nav-right-section .menu-icon:hover{
+    cursor: pointer;
+}
+nav .nav-right-section .profile-icon{
+    background-image: url('../res/profile-icon.svg');
+    width: 30px;
+    height: 30px;
+}
+nav .nav-right-section .profile-icon:hover{
+    cursor: pointer;
+}
+.main-section{
+    text-align: center;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-section .main-section-logo{
+    width: 450px;
+}
+.main-section .main-section-search{
+    width: 750px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.1s ease;
+}
+.main-section .main-section-search:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+    transition: all 0.1s ease;
+}
+.main-section .main-section-search .search-input-container{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-section .main-section-search .search-input-container .search-logo{
+    background-image: url('../res/search-icon.svg');
+    width: 20px;
+    height: 20px;
+}
+.main-section .main-section-search .search-input-container .micro-logo{
+    background-image: url('../res/micro-icon.svg');
+    width: 20px;
+    height: 20px;
+}
+.main-section .main-section-search .search-input-container input{
+    border: none;
+    outline: none;
+    width: 640px;
+    height: 40px;
+    font-size: 1.6rem;
+    color: #333;
+}
+.main-section .main-section-buttons{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 36px;
+    width: 380px;
+    justify-content: space-between;
+}
+.main-section .main-section-buttons div button{
+    border: none;
+    border-radius: 6px;
+    line-height: 36px;
+    padding: 0 24px;
+    background-color: #f3f2f2;
+    color: #5e5d5d;
+    font-size: 1.4rem;
+}
+.main-section .main-section-buttons div button:hover{
+    cursor: pointer;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul{
+    margin: 10px;
+    display: flex;
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li a{
+    padding: 0 10px;
+    color: #5f6368;
+}
